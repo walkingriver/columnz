@@ -7,6 +7,6 @@ Usage
 =====
 $('tableSelector').columnz();
 
-Example
+Demo
 =======
-(Coming soon)
+Demo can be seen at http://jsfiddle.net/mikecallaghan/maqCA/
