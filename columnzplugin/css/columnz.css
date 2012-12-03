@@ -1,0 +1,76 @@
+﻿th a.columnzClose {
+    display: none;
+}
+
+th:hover a.columnzClose {
+    display: block;
+}
+
+a.columnzClose {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFAAAA/4Nj/4Vj/4Zj/4hj/4pj/4lk/4ll/4lm/4pk/4pl/4xm/45q/45s/45w/45x/5Bv/5Bw/5Bx/5Jw/5Nx/5Jy/5Nz/5Rx/5Ry/5Rz/5dy/5Zz/5h2/5x3/5t8/55//56A/6aD/6WG/6SH/6aE/7GT/7SU/7WV/7aX/7qh/76g/7+i/8Om/8Gp/8Ko/8Kq/8ap/8qy/862/8+3/9O8/9e//9jA/97I//3t//7t////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYZtqNwAAAQB0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AFP3ByUAAAAJcEhZcwAACxAAAAsQAa0jvXUAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAALtJREFUKFMtj1cSwjAMRIW1poUaCC2h996b738vIyXsh8Z68o605FXvw2a1e6VP0nY9DKwNBotHBi5Ti0zJUsFb+j6YuQvENwFrC+ci5rb7yh9PzyF6TkgkpYnKiS4BUiKqGZTmtLHi17Gr5ZjRoJWCjoK6EVClfQDuZ5aQOT+m+wCxjutS2ihvyS8ga8OcCd3HoCh3PBIgEju3DBeOevoyhh7KQGGUhbsllRKQLxeP/7TeX2eN6uScxv8BrkhEDBacoEgAAAAASUVORK5CYII=') /*../images/no.png*/;
+    *background-image: url(../images/no.png); /* For IE 6 and 7 */
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+    a.columnzClose:hover {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAACB0RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgTVi7kSokAAAAFnRFWHRDcmVhdGlvbiBUaW1lADExLzA1LzA33bqJ2wAAAtJJREFUeJxlk0toXGUUx3/fdzuPOs+kusrgpuTVmLZgUoO46KIqKoREzKKb4KKb7MVFF5YKddGVCLr0AWKhiybLSkppRLFoCXaSSdKMQokTu2nmPdOZe+93jotJZYIHDgfO48+B3zlGVem3/Lvjp000ehXrTan1ciIO8bsl8bsP1O9emb73d76/3/QLbM6fXcZ6c50newS1Cs65XsF6eIkkJjMIYbgyc29v/ojA3vWP4o3f14pB5WmuVXqMU3CAHro5dA+w2RMQi5faL+aG37p1v2MB6r/euRFUnuaapccECpLM4it0BXzpRUmk8RXC6gGu3crF//nrBoDZ/GBqWkV+qxXWCRRGPvuaxMgkPy9eIGjUAIim0rz2xU0aj/IUr39MxIDLnMConrPS7VzrPNnDKZDMkBw/S3rsDDPf3EaTGTSZ4dyXt0gNT/DCyVO04ylCBdtuomFwzWwsTJcahfWhTujwld7At3fIjpziYHMdnCN7cpTy9kPuLi3AswYDHkStwY+n9q2IDjnnUEAUuvUaa4sXKO/kGRybZGD0Fcq7BX5cWiBoNThuQBVQJRQZOibSQ/UcpgIYg+mHrWCNIWKPpFBxWAnDfaz330A0neX8d6sMjJ2mvLPBwaNNBkcnePOrm0ST6T5hgzi3b6Xd3PISSQwQzWR54/u7ZMfPUN7Jc/vD91i9NEtlt8DA8ASvf/4DkVQaayA0hmPitqx6kcsmM4gHaL1KY/sPKtsPWV18G23VibTr/LL0PtVigeqfWzTrdSzQUYMTuWxUlfvnX14On7XnwuoBgUKQyFCr1zhuni8LkWSKZqNBxEDMs4SiK7NFmbcAfm74IrF4yaSyRAxEWzUyFqIGYqYXvXYPX8yz+KKlkq8X//dMP828tByIzvWOxAfVQzqG0Bg6ajAiK7NFOfpM/bb2amYyVD4NRacC0ZyKA+dKRtwDT+WTd3Zlo7//X9Bdcywg+WD0AAAAAElFTkSuQmCC') /*../images/no_hover.png*/;
+        *background-image: url(../images/no_hover.png); /* For IE 6 and 7 */ /* For IE 6 and 7 */
+    }
+
+th.columnz {
+    position: relative;
+}
+
+
+div.columnzSelectionWrapper {
+    position: relative;
+    padding-left: 8px;
+}
+
+a.columnzDropdown {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAACB0RVh0U29mdHdhcmUATWFjcm9tZWRpYSBGaXJld29ya3MgTVi7kSokAAAAFnRFWHRDcmVhdGlvbiBUaW1lADExLzA1LzA33bqJ2wAAAihJREFUeJyNU01LlFEUfs69M+OkTbRwCBXa5MLsY1fhoogU2vgDohat27sR2gtCixat+gHt2uQqmohSCDOCojAcTUx7w3dyTN+PmXvvObeF4zTvCNGBszrPx3k4HPLeo7Oer9cuH8vpGUV0gYCyFUFiJUwdf2owT98+O7jYiadOgfmteqWo1Y0gbiIyDGnNCIBWBAKQsry8e25ovFuguPRzb2PP2HIQNfGvYu/RcBJuJ+b0/bEzDdVynvsfMgBoIihCuVTQcwBAbzZ3rha1ev11J84A74wOgr2AwWAveLr8KzMP4iYMyzUl3s8G8VFn612rGdY7LHcZlPIaAGZVQavhyPARAecZzrtWH5335jUiw8M5EfRLxyXGhk7gVCkH610mwr0rJ7EdMT4HAgBQRGiy9CsrklFeCvaRONt2P4wQO4dnyxG2osbfmCxQqZMadWYXjw9B3CYeCr1aTcECDPT1AABYPJz3NZVYrmpFmS3CWPB9z8DiQGStbrCxyxjo64GiA2wtNSjmdFUZkaks/aCqoSB1DoljzH+zKBU0jhd0e766m2DfuCl1a2RgIWWpcNdPsADVbeDtuoMItVcHgJV6DBBVHt88v6AAoOlksuEkTF32XL8TBbb5zOor9Rib+83wyZcfk0DXMz18v/7Cih8v5TV687pNYvGopQaruwlAVHk0MTpxyKHud55dXLtk2M80nFxMHZctC0AIiehjTtH0g+sj7zrxfwBoAGmkclTLqgAAAABJRU5ErkJggg==') /*../images/arrow_down.png*/;
+    *background-image: url(../images/arrow_down.png); /* For IE 6 and 7 */ /* For IE 6 and 7 */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    color: #dddddd;
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+}
+
+    a.columnzDropdown:hover {
+        background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAAwBQTFRFAAAASZmzTJq0UZ22UZ64VqG4W6K5WqO6XqO5XqO6YKW5YaW6Zae9Z6i+aKi8aqm9bKm9ebK8d67Ad67BdrLGerDBeLTHe7bIgLLDg7TEg7XGhLTEhbXFhrbEh7bFhrnJiLbFi7zMkr7CkbvIlMHPnMDLn8HMncHOnsLOpMPOqsbPoMbSpcfTqsfSqcrVrMnRscrTtM/XudHZutLZutLaxe/nwejv0/Tv1/bv2/zp3/3r4v7u5f/s5//t6P/v5fj76v/w6//x7f/y7v/08P/18v/28//38v/69f/49f/59v/6+P/7+f/8+//9/v//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPf8T7wAAAQB0Uk5T////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////AFP3ByUAAAAJcEhZcwAACxAAAAsQAa0jvXUAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAL9JREFUKFM9j4USwjAMhgPDbdigQYfLcHcZru//NiWBHblr8/dLk8sPkmPQblRrna8EOsNmKYOYzunGD/QqaIVIMRj934hamUCTy28KzqqEfskCTxeJaB66NI9+vB43BiIADUrb9/N+PpozkgpU6dYv19Nhv/SHEO1QTxOZHM3dOuIVKJzQyvGM6WY1dsUQw3GQOoPsYu6jBrTRHoZgUuQG9CR49ZTGJEYNHsfPXFmNUlWEbQnLrZSFoGJ3J7/2P6E7SmIie1HSAAAAAElFTkSuQmCC') /*../images/arrow_down_hover.png*/;
+        *background-image: url(../images/arrow_down_hover.png); /* For IE 6 and 7 */ /* For IE 6 and 7 */
+        color: #333333;
+    }
+
+div.columnzSelection {
+    background-color: #eeeeee;
+    border: thin solid black;
+    -moz-box-shadow: 5px 5px 5px #888888;
+    -webkit-box-shadow: 5px 5px 5px #888888;
+    box-shadow: 5px 5px 5px #888888;
+    display: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    z-index: 32767;
+}
+
+    div.columnzSelection ul {
+        list-style: none;
+        list-style-image: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+    }
