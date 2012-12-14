@@ -1,8 +1,18 @@
 ﻿(function ($) {
     $.fn.columnz = function () {
         var $table = this,
+            hide = $.browser.msie ? function (e) {
+                $(e).hide();
+            } : function (e) {
+                $(e).fadeOut(300);
+            },
+            show = $.browser.msie ? function (e) {
+                $(e).show();
+            } : function (e) {
+                $(e).fadeIn(300);
+            },
         $wrapper;
-        
+
         $table.wrap('<div class="columnzSelectionWrapper" />');
         $table.before($('<a class="columnzDropdown">&nbsp;</a><div class="columnzSelection"><ul></ul></div>'));
         $wrapper = $table.closest('.columnzSelectionWrapper');
@@ -20,7 +30,7 @@
             .each(function (i, e) {
                 var child = i + 1,
                 // Create a link to use as a column close icon
-                $link = $('<a class="columnzClose" data-column="' + child + '">&nbsp;</a>'),
+                $link = $('<span class="wrappingSpanToFixIE9"><a class="columnzClose" data-column="' + child + '">&nbsp;</a></span>'),
 
                 // Create a checkbox for this column to add to the dropdown menu
                 text = $(e).text(),
@@ -44,9 +54,9 @@
 
             // Show or hide it.
             if (isChecked) {
-                $nthCell.fadeIn(300);
+                show($nthCell);
             } else {
-                $nthCell.fadeOut(300);
+                hide($nthCell);
             }
         });
 
@@ -56,7 +66,7 @@
             nth = $e.closest('th').index() + 1,
             $nthCell = $e.closest('table').find('td:nth-child(' + nth + '),th:nth-child(' + nth + ')');
 
-            $nthCell.fadeOut(300);
+            hide($nthCell);
 
             // Find the checkbox and uncheck it
             $('input:checkbox.columnzCheckbox[data-column=' + nth + ']').prop('checked', false);

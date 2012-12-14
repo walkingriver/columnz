@@ -2,6 +2,20 @@
     display: none;
 }
 
+.columnzHidden {
+    display: none;
+    /*    position: absolute;
+    left: -32767px;*/
+}
+
+.columnzFadeOut {
+    opacity: 0;
+    -moz-transition: opacity linear .333s;
+    -o-transition: opacity linear .333s;
+    -webkit-transition: opacity linear .333s;
+    transition: opacity linear .333s;
+}
+
 th:hover a.columnzClose {
     display: block;
 }
@@ -23,8 +37,13 @@ a.columnzClose {
         *background-image: url(../images/no_hover.png); /* For IE 6 and 7 */ /* For IE 6 and 7 */
     }
 
-th.columnz {
+.columnz {
     position: relative;
+    /*opacity: 1;
+    -moz-transition: opacity ease-in .333s;
+    -o-transition: opacity ease-in .333s;
+    -webkit-transition: opacity ease-in .333s;
+    transition: opacity ease-in .333s;*/
 }
 
 
