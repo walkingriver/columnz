@@ -4,8 +4,6 @@
 
 .columnzHidden {
     display: none;
-    /*    position: absolute;
-    left: -32767px;*/
 }
 
 .columnzFadeOut {
@@ -39,11 +37,6 @@ a.columnzClose {
 
 .columnz {
     position: relative;
-    /*opacity: 1;
-    -moz-transition: opacity ease-in .333s;
-    -o-transition: opacity ease-in .333s;
-    -webkit-transition: opacity ease-in .333s;
-    transition: opacity ease-in .333s;*/
 }
 
 

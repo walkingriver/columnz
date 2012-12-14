@@ -1,17 +1,23 @@
 ﻿(function ($) {
     $.fn.columnz = function () {
         var $table = this,
-            hide = $.browser.msie ? function (e) {
+            hide = $.browser.msie ? function(e) {
                 $(e).hide();
-            } : function (e) {
+            } : function(e) {
                 $(e).fadeOut(300);
             },
-            show = $.browser.msie ? function (e) {
+            show = $.browser.msie ? function(e) {
                 $(e).show();
-            } : function (e) {
+            } : function(e) {
                 $(e).fadeIn(300);
             },
-        $wrapper;
+            $wrapper,
+            isInitialized = $table.data('columnzInitialized');
+        
+        // Todo: Make sure 'this' is a table...
+        
+        // This prevents the plug-in from being called multiple times on the same element.
+        if (isInitialized === true) return $table;
 
         $table.wrap('<div class="columnzSelectionWrapper" />');
         $table.before($('<a class="columnzDropdown">&nbsp;</a><div class="columnzSelection"><ul></ul></div>'));
@@ -72,6 +78,7 @@
             $('input:checkbox.columnzCheckbox[data-column=' + nth + ']').prop('checked', false);
         });
 
+        $table.data('columnzInitialized', true);
         return $table;
     };
 })(jQuery);
