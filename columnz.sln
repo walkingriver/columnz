@@ -1,7 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "columnzplugin", "columnzplugin\columnzplugin.csproj", "{9FA87052-7198-4DA1-9368-67D0EFC00C1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1DB8D0B4-0A53-4C05-9614-29BDCD3163F4}"
+	ProjectSection(SolutionItems) = preProject
+		columnz.1.0.0.nupkg = columnz.1.0.0.nupkg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
